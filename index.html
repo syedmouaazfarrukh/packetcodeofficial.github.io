@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="utf-8" />
+    <meta name="robots" content="noodp" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
+    <!-- PAGE TITLE -->
+    <title>Table Connect - Coming Soon</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:300,400"
+      rel="stylesheet"
+    />
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/hero.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- MAIN -->
+    <div id="main">
+      <!-- LOADING -->
+      <div id="page-loader">
+        <!-- SPINNER CONTAINER -->
+        <div class="spinner-container">
+          <div class="css-spinner"></div>
+        </div>
+        <!-- /SPINNER CONTAINER -->
+      </div>
+      <!-- /LOADING -->
+
+      <!-- HERO -->
+      <section id="hero" class="hero hero-1">
+        <!-- FRONT CONTENT -->
+        <div class="front-content page-enter-animated">
+          <!-- CONTAINER MID -->
+          <div class="container-mid main_home_div">
+            <!-- CYCLE SLIDER WRAPPER  -->
+            <div class="cycle-wrapper">
+              <!-- CYCLE SLIDER -->
+              <div id="cycle">
+                <div class="slide">
+                  <!-- <span style="white-space: pre">C  O  M  I  N  G    S  O  O  N</span> -->
+                  <span style="white-space: pre">C O M I N G S O O N</span>
+                </div>
+                <!--<div class="slide"><h1>AGENCY<span> & </span><br>BUSINESS DESIGN<br>STRATEGYS.</h1></div>
+							  <div class="slide"><h1>MODERN<span> & </span><br>CREATIVE TEMPLATE<br>DEVELOPMENT.</h1></div>-->
+              </div>
+              <!-- /CYCLE SLIDER -->
+            </div>
+            <!-- /CYCLE SLIDER WRAPPER -->
+
+            <img
+              class="logo"
+              style="margin: 3em"
+              src="assets/images/logo.svg"
+              alt="logo"
+            />
+
+            <p class="main_heading">The Event App You've Been Waiting For</p>
+
+            <p class="sub_heading_large">
+              Sign up to reserve your spot. We'll send you an email when we
+              launch.
+            </p>
+            <p class="sub_heading_small">
+              Sign up to reserve your spot.<br />We'll send you an email when we
+              launch.
+            </p>
+
+            <!-- FORM -->
+            <!-- class="subscribe-form arrow-wrap" -->
+            <form
+              action="assets/php/subscribe.php"
+              method="post"
+              class="form-inline subscribe-form"
+            >
+              <!-- INPUT GROUP Desktop-->
+              <!-- input-group-lg form-desktop -->
+              <div
+                class="input-group has-validation subscribe-form-div"
+              >
+                <span class="input-group-addon" style="width: 1%"
+                  ><i class="fa fa-user icon"></i
+                ></span>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="E-mail Address"
+                  class="email form-control input-field"
+                  style="
+                    border-left: 0;
+                    border-bottom-right-radius: 5px;
+                    border-top-right-radius: 5px;
+                  "
+                />
+                <span class="invalid_Email_Error">
+                  <i class="fa fa-exclamation-circle" aria-hidden="true"></i><span data-error>Please enter a valid E-mail Address</span>
+                </span>
+
+                <div class="thanksMsgCont">
+                  <img
+                    src="./assets/images/941ea0e2-f189-4868-a968-f27516f937e7.svg"
+                    alt=""
+                    aria-hidden="true"
+                  />
+                  <!-- <i class="fa fa-check-circle-o" aria-hidden="true"></i> -->
+                  <span class="thnksTxt">Thanks!</span>
+                  <p>You are all signed up for our latest news.</p>
+                </div>
+              </div>
+              <!-- INPUT GROUP BUTTON-->
+              <!-- BUTTON -->
+              <button type="submit" class="btn btn-primary form-control mb-2">
+                Notify me!
+              </button>
+              <!-- /BUTTON -->
+            </form>
+            <!-- /FORM -->
+
+            <!-- OPEN OVERLAY BUTTON -->
+            <div class="scroll_right go-down">
+              <img src="assets/images/navigate_bg.svg" />
+              <img
+                src="assets/images/navigate_bg-left-arrow.svg"
+                style="
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  transform: translate(0, 70%);
+                "
+              />
+            </div>
+            <!-- /OPEN OVERLAY BUTTON -->
+            <!-- OPEN OVERLAY BUTTON -->
+            <div class="scroll_down go-down">
+              <img src="assets/images/navigate-down-bg.svg" />
+              <img
+                src="assets/images/navigate_bg-down-arrow.svg"
+                style="
+                  position: absolute;
+                  bottom: 0.8em;
+                  right: 50%;
+                  transform: translate(50%, 0);
+                "
+              />
+            </div>
+            <!-- /OPEN OVERLAY BUTTON -->
+          </div>
+          <!-- /CONTAINER MID -->
+        </div>
+        <!-- /FRONT CONTENT -->
+
+        <!-- BACKGROUND CONTENT -->
+        <div class="background-content page-enter-animated">
+          <!-- LEVEL 1 -->
+          <div class="level-1">
+            <div class="bg-overlay"></div>
+            <div class="bg-pattern"></div>
+            <div id="canvas">
+              <canvas class="bg-effect layer" data-depth="0.2"></canvas>
+            </div>
+          </div>
+          <!-- /LEVEL 1 -->
+
+          <!-- LEVEL 2 -->
+          <video autoplay muted loop id="bg-video">
+            <source
+              src="./assets/video/pexels-william-fortunato-6139259.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div class="level-2">
+            <div class="bg-image layer" data-depth="0.04"></div>
+            <!--<div class="bg-video layer" data-depth="0.04"></div>-->
+            <div class="bg-color layer" data-depth="0.04"></div>
+          </div>
+          <!-- /LEVEL 2 -->
+        </div>
+        <!-- /BACKGROUND CONTENT -->
+      </section>
+      <!-- /HERO -->
+
+      <!-- OVERLAY CONTAINER -->
+      <div id="overlay">
+        <!-- OVERLAY-1 -->
+        <section class="overlay">
+          <!-- CONTENT -->
+          <div id="about" class="content">
+            <!-- CONTAINER MID -->
+            <div class="container-mid" style="padding-top: 2em">
+              <!-- CONTAINER -->
+              <div class="container">
+                <h1>Table Connect App</h1>
+
+                <div class="row">
+                  <div class="col-lg-6">
+                    <p class="about_content">
+                      We are a young start-up in the process of creating an
+                      innovative and easy solution for event planning.
+                    </p>
+                    <p class="about_content" style="margin-top: 60px">
+                      Our product is a mobile application for Android and iOS.
+                      Our users can use the service for free and organize events
+                      such as parties, vacations and trainings in a clear, fast
+                      and easy way. We are launching as soon as the COVID-19
+                      situation allows us to and when private and public events
+                      are reestablished.
+                    </p>
+                  </div>
+                  <div class="col-lg-6">
+                    <h3 class="about_features_heading">Features</h3>
+                    <p class="about_features_list_p about_features_list_p_1">
+                      <img
+                        src="assets/images/f1.svg"
+                        class="about_features_list_img"
+                      />
+                      <span>Create & Join Events</span>
+                    </p>
+                    <p class="about_features_list_p">
+                      <img
+                        src="assets/images/f2.svg"
+                        class="about_features_list_img"
+                      />
+                      <span>Connect with Friends</span>
+                    </p>
+                    <p class="about_features_list_p">
+                      <img
+                        src="assets/images/f3.svg"
+                        class="about_features_list_img"
+                      />
+                      <span>Explore What's Happening Around You</span>
+                    </p>
+                    <p class="about_features_list_p">
+                      <img
+                        src="assets/images/f4.svg"
+                        class="about_features_list_img"
+                      />
+                      <span>Share Memories, Photos & Files</span>
+                    </p>
+                    <p class="about_features_list_p">
+                      <img
+                        src="assets/images/f5.svg"
+                        class="about_features_list_img"
+                      />
+                      <span>Create Carpools</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="row desktop-footer">
+                  <div class="col-lg-6">
+                    <!-- <p class="about_contact">LIQUET AG</p>
+                    <p class="about_contact_2">Nidau, Switzerland</p>
+                    <p class="about_contact_2" style="color: rgb(42 223 180)">
+                      info@tableconnectapp.com
+                    </p> -->
+                  </div>
+                  <div class="col-lg-6" style="text-align: right">
+                    <img src="assets/images/bottom-left-logo.png" />
+                  </div>
+                </div>
+                <div class="row mobile-footer">
+                  <div
+                    class="col-lg-6"
+                    style="text-align: center; margin-bottom: 1.5em"
+                  >
+                    <img
+                      src="assets/images/bottom-left-logo.png"
+                      style="width: 80%"
+                    />
+                  </div>
+                  <!-- <div class="col-lg-6">
+                    <p class="about_contact">LIQUET AG</p>
+                    <p class="about_contact_2">Nidau, Switzerland</p>
+                    <p class="about_contact_2" style="color: rgb(42 223 180)">
+                      info@tableconnectapp.com
+                    </p>
+                  </div> -->
+                </div>
+                
+				
+				
+				<hr style="border:0.5px solid #28E1B4"/>
+				
+				
+				<div
+					
+					style="
+						position: absolute;
+						top:120%;
+						left: 50%;
+						
+						-webkit-transform:translate(-50%,-50%);
+						transform: translate(-50%,-50%);
+						"
+					>
+				
+				
+					 
+				<div
+						
+						style= "
+								padding-top: 100px;
+								padding-bottom: 15px;
+								margin: 0 !important;
+								text-align: center;
+								color: #fff;
+						"
+				>
+					 
+					  <img
+						class="logo"
+                        src="assets/images/Instagramicon.png"
+                        
+                      />
+					  
+					  <img
+                        class="logo"
+                       	src="assets/images/Twittericon.png"
+                        
+                      />
+					  
+					  <img
+                        class="logo"
+                        src="assets/images/Linkedinicon.png"
+                        
+                      />
+
+					  <img
+                        class="logo"
+                        src="assets/images/tiktokicon.png"
+                        
+                      />
+				</div>
+
+				
+					  <div
+					  
+						style= "
+								
+								margin: 0 !important;
+								text-align: center;
+							
+						"
+					  
+					  
+					  
+					  >
+					  
+					  <a href="index.html"
+					   style= "
+								font-family: Raleway;
+								font-size: 13px;
+								max-width: 610px;
+								line-height: 1.5em;
+								letter-spacing: 0.01em;
+								margin: 10px;
+								text-align: center;
+								color: #fff;
+						">FAQ</a>
+						
+					  <a href="index.html"
+					   style= "
+								font-family: Raleway;
+								font-size: 13px;
+								max-width: 610px;
+								line-height: 1.5em;
+								letter-spacing: 0.01em;
+								margin: 10px;
+								text-align: center;
+								color: #fff;
+						">Terms & Conditions</a>
+						
+					  <a href="index.html"
+					   style= "
+								font-family: Raleway;
+								font-size: 13px;
+								max-width: 610px;
+								line-height: 1.5em;
+								letter-spacing: 0.01em;
+								margin: 10px;
+								text-align: center;
+								color: #fff;
+						">Privacy Policy</a>
+						
+					  <a href="index.html"
+					   style= "
+								font-family: Raleway;
+								font-size: 13px;
+								max-width: 610px;
+								line-height: 1.5em;
+								letter-spacing: 0.01em;
+								margin: 10px;
+								text-align: center;
+								color: #fff;
+						">Cookie Policy</a>
+						
+						
+					</div>
+					
+					
+						<br>
+					
+				
+				<div>
+					  
+					  <a href="index.html"
+					  					  
+					  style= "
+								font-family: Raleway;
+								font-size: 13px;
+								max-width: 610px;
+								padding:15px;
+								height: 1px
+								line-height: 1em;
+								letter-spacing: 0.01em;
+								margin: 100px;
+								text-align: center;
+								color: #2adfb4;
+						">info@tableconnectapp.com</a>	
+				
+						
+					</div>
+					
+					<br>
+					
+					<div>
+					  
+					  <p 
+					  					  
+					  style= "
+								font-family: Raleway;
+								font-size: 13px;
+								max-width: 610px;
+								line-height: 1em;
+								letter-spacing: 0.01em;
+								text-align: center;
+								color: #3c3c3c;
+						">C 2021 LIQUET AG <br> Hauptstrasse 37,2560 Nidau | Switzerland</p>	
+				
+						
+					</div>
+					
+					
+					
+					
+					
+					
+				
+				
+				
+				
+				
+				
+				
+				
+				
+              </div>
+              <!-- /CONTAINER -->
+            </div>
+            <!-- /CONTAINER MID -->
+          </div>
+          <!-- /CONTENT -->
+        </section>
+        <!-- /OVERLAY-1 -->
+
+        <!-- OVERLAY BACK BUTTON -->
+        <!-- <div class="up-button go-up">
+          <i class="ti-arrow-up"></i><i class="ti-arrow-up"></i>
+        </div> -->
+        <!-- /OVERLAY BACK BUTTON -->
+        <!-- OPEN OVERLAY BUTTON -->
+        <div class="scroll_left go-up">
+          <img src="assets/images/navigate_bg.svg" />
+          <img
+            src="assets/images/navigate_bg-left-arrow.svg"
+            class="rotateimg180"
+            style="position: absolute; top: 0; right: 0"
+          />
+        </div>
+        <!-- /OPEN OVERLAY BUTTON -->
+        <!-- OPEN OVERLAY BUTTON -->
+        <div class="scroll_up go-up" style="z-index: 9999">
+          <img src="assets/images/navigate-down-bg-2.svg" />
+          <img
+            src="assets/images/navigate_bg-up-arrow.svg"
+            style="
+              position: absolute;
+              bottom: 0.8em;
+              right: 50%;
+              transform: translate(50%, 40%);
+            "
+          />
+        </div>
+        <!-- /OPEN OVERLAY BUTTON -->
+      </div>
+      <!-- /OVERLAY CONTAINER -->
+    </div>
+    <!-- MAIN -->
+
+    <!-- JAVASCRIPT FILES -->
+    <script type="text/javascript" src="assets/js/plugins/plugins.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/js/plugins/jquery.tubeplayer.min.js"
+    ></script>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+    <script type="text/javascript" src="assets/js/hero.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
+  </body>
+</html>
